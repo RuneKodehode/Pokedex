@@ -5,12 +5,23 @@ body {
   text-align: center;
   background: black;
   height: 100%;
-  width: 100%;
   color: white;
   text-shadow: 0 0 1px purple;
   font-family: early gameboy;
 }
-
+::-webkit-scrollbar {
+  width: 15px;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar-track {
+  overflow-x: hidden;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #4f5151;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
 @font-face {
   font-family: early gameboy;
   src: url(gameboy.ttf);
