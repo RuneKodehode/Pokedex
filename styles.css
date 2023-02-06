@@ -8,6 +8,7 @@ body {
   color: white;
   text-shadow: 0 0 1px purple;
   font-family: early gameboy;
+  overflow-x: hidden;
 }
 ::-webkit-scrollbar {
   width: 15px;
@@ -18,9 +19,7 @@ body {
 }
 ::-webkit-scrollbar-thumb {
   background-color: #4f5151;
-  border-radius: 20px;
-  border: 6px solid transparent;
-  background-clip: content-box;
+  overflow-x: hidden;
 }
 @font-face {
   font-family: early gameboy;
