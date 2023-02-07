@@ -11,14 +11,16 @@ body {
   overflow-x: hidden;
 }
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 5px;
   overflow-x: hidden;
 }
 ::-webkit-scrollbar-track {
   overflow-x: hidden;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #4f5151;
+  width: 3px;
+  border-radius: 10px;
+  background-color: #ffffff;
   overflow-x: hidden;
 }
 @font-face {
